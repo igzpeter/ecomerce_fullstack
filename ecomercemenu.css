@@ -1,0 +1,145 @@
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Libre Barcode 128 Text', cursive; */
+
+
+body{
+    background:floralwhite;
+}
+#container{
+
+    display:flex;  
+    flex-direction: row;
+   justify-content: center;
+   margin-top:50px;
+   margin-left: 80px;
+   width: 1200px;
+   height: 1000px;
+   flex-wrap: wrap;
+   font-size: 22px;
+   
+}
+#container2{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    float: right;
+    height:200px;
+    width: 600px;
+}
+
+
+
+#container3{
+             display:flex;
+             justify-content: flex-start;   
+             height:500px;
+            position: absolute;
+             
+}
+
+
+
+
+h1 {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2{
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    float: right;
+    font-family: 'Amatic SC', cursive; 
+    font-size: 30px;
+   
+   
+}
+
+#gif{
+    width: 250px;
+    height: 228px;
+
+}
+ 
+#menu {
+         width: 70px;
+        height: 70px;
+        margin-right:2px;
+       
+}
+ 
+ul, li {
+         width: 120px;
+         font-size: 30px;
+         font-family: 'Amatic SC', cursive; 
+         background-color: rgb(206, 204, 204);
+       
+}
+
+    p{
+        font-family: 'Amatic SC', cursive;
+        font-size: 30px;
+        color: blue;
+        margin-bottom:0px;
+        margin-left: 10px;
+ 
+}
+
+
+img{
+    
+    width: 335px;
+    height: 231px;
+    
+
+}
+
+
+#menuimg{
+        width: 70px;
+        height: 70px;
+}
+
+.unlike{
+          width: 40px;
+          height:40px;
+}
+
+ #accessoire1, #accessoire2, #robeLonguenoir,#chaussure1,#chaussure2,#tshirt1,#tshirt3,#tshirt2,#access2,#access1,#pantalon1,#veste4,#veste1,#veste2,#veste3,#lingerie2,#lingerie1,#pyjama3,#pyjama1,#pyjama2, 
+#costume2,#costume1,#robe4,#robe1,#robe2,#robe3{
+    font-size: 31px;
+    font-weight:bold;
+    color:rgb(7, 7, 175);
+    width:500px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding:5px;
+    margin:5px;
+    border:solid black 1px;
+    background:black ;
+} 
+
+div{
+    width: 255px;
+    font-family: 'Amatic SC', cursive;
+  
+}
+
+
+
+button{
+    width:80px;
+    height: 32px;
+    background-color: white;
+    font-size: 15px;
+    color: palevioletred;
+    border-color: palevioletred;
+    border-radius: 8px;
+    outline:none;
+}
